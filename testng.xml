@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite">
+
+<test name="Google Page Launch">
+    <classes>
+        <class name="Google_TC.TC_01" ></class>  
+    </classes>
+</test>
+
+
+</suite>

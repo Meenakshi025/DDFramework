@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Sample Suite]">
+  <test name="Google Page Launch(failed)">
+    <classes>
+      <class name="Google_TC.TC_01">
+        <methods>
+          <include name="GooglePageLaunchOne"/>
+          <include name="CreateNewLabel"/>
+          <include name="OpenAndCloseBrowser"/>
+          <include name="ComposeMail"/>
+          <include name="ReadmailCount"/>
+          <include name="GoogleAppsLoginAndLogout"/>
+          <include name="MailMoveToCreatedLabel"/>
+          <include name="SearchEmailsFromInbox"/>
+          <include name="GoogleProducts"/>
+          <include name="GoogleSearch"/>
+          <include name="VerifyGoogleAppsElement"/>
+          <include name="EmailsWithAttachment"/>
+          <include name="GoogleDialogBox"/>
+          <include name="EmailCount"/>
+          <include name="HindiLinkDisappear"/>
+          <include name="tearDown"/>
+          <include name="LoginToGmail"/>
+          <include name="GmailSignInSignOut"/>
+          <include name="MailSend"/>
+          <include name="SettingPageDisplayed"/>
+          <include name="UnreadEmailCount"/>
+        </methods>
+      </class> <!-- Google_TC.TC_01 -->
+    </classes>
+  </test> <!-- Google Page Launch(failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->
